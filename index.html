@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dashboard</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/f48d91dfc1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="container">
+
+    <!-- NAV BAR -->
+    <div id="nav">
+      <div id="logo">
+        <p>R.</p>
+      </div>
+      <a href="#"><img src="img/filter.png" alt="" class="btn filter"></a>
+      <a href="#"><img src="img/dashboard.png" alt="" class="btn active dashboard"></a>
+      <a href="#"><img src="img/profile.png" alt="" class="btn profile"></a>
+      <a href="#"><img src="img/stat.png" alt="" class="btn stats"></a>
+    </div>
+
+    <!-- MAIN SECTION -->
+    <div id="main">
+      <h2>Progress Dashboard</h2>
+      <!-- Top  -->
+      <section class="top">
+        <div class="exam">
+          <p><span class="subTitle">Deadline </span>12.00</p>
+          <p class="largeTitle">Exam - Unit 5</p>
+          <p class="subTitle">Spanish for beginners</p>
+          <div class="test">
+            <img src="img/profile-imgs.png" alt="">
+            <a href="#">Start Testing</a>
+          </div>
+        </div>
+        <div class="homework todo">
+          <i class="far fa-check-circle"></i>
+          <p class="todoTitle">Homework</p>
+          <p class="todoSub">For Today's <br>lesson.</p>
+        </div>
+
+        <div class="reading todo">
+          <i class="far fa-check-circle"></i>
+          <p class="todoTitle">Reading</p>
+          <p class="todoSub">25 words<br>per week.</p>
+        </div>
+      </section>
+
+      <!-- MIDDLE -->
+      <section class="middle">
+        <div class="group">
+
+          <div class="groupHeader">
+            <p class="title">Group Info <br>
+              <span class="subTitle">13 Students in the group</span>
+            </p>
+            <i class="far fa-bell"></i>
+          </div>
+
+          <div class="groupHomework">
+            <p class="title">Group Homework <br>
+              <span class="subTitle grpHWtitle">5 Students from group online now</span>
+            </p>
+            <i class="fas fa-angle-right"></i>
+          </div>
+
+          <div class="groupFooter">
+            <p class="title">Today's lesson <br>
+              <span class="subTitle">Unit 6 - Articles</span>
+            </p>
+            <p>12.00</p>
+          </div>
+
+        </div>
+        <div class="flagProgress">
+          <div class="flagProgressTitle">
+            <img src="img/france.png" alt="">
+            <p class="largeTitle">French for <br>beginners</p>
+          </div>
+          <div class="flagProgressAmount">
+            <p>75%</p>
+            <progress value="75" max="100"></progress>
+          </div>
+        </div>
+      </section>
+
+      <!-- BOTTOM -->
+      <section class="bottom">
+        <div class="botGrammer bot">
+          <div>
+            <i class="fas fa-pencil-alt icon-circle"></i>
+            <p class="title">Grammer <br><span class="subTitle">+30 Grammer rules</span> </p>
+          </div>
+          <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="botDictionary bot">
+          <div>
+            <i class="fas fa-spell-check icon-circle"></i>
+            <p class="title">Dictionary <br><span class="subTitle">+10 new words</span> </p>
+          </div>
+          <i class="fas fa-angle-right"></i>
+        </div>
+      </section>
+    </div>
+
+    <!-- PROFILE SECTION -->
+    <div id="profile">
+      <div class="pic">
+        <img width="200px" src="img/me.png" alt="">
+        <p class="largeTitle name">Rayhan Tanvir</p>
+        <p class="subTitle">Web Developer</p>
+      </div>
+      <div class="ad">
+        <div class="adBox">
+          <p class="title">Get 10% -sell price <br><span>for French A2 course</span></p>
+          <i class="fas fa-angle-right"></i>
+        </div>
+      </div>
+      <div class="progress">
+        <p id="coursePorgress" class="largeTitle">Courses Progress</p>
+        <div class="progressBox Grammer">
+          <p class="percent">63%</p>
+          <i class="fas fa-pencil-alt"></i>
+          <p class="title">Grammer <br><span class="subTitle">Learn new rules</span></p>
+        </div>
+        <div class="progressBox Dictionary">
+          <p class="percent">73%</p>
+          <i class="fas fa-spell-check"></i>
+          <p class="title">Dictionary <br><span class="subTitle">Learn new words</span></p>
+        </div>
+        <div class="progressBox Reading">
+          <p class="percent">53%</p>
+          <i class="fas fa-book-reader"></i>
+          <p class="title">Reading <br><span class="subTitle">Train your skills</span></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
